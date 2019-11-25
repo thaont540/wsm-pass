@@ -1,0 +1,22 @@
+{
+  "name": "__MSG_name__",
+  "short_name": "__MSG_name__",
+  "author": "Thao hihi",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "__MSG_desc__",
+  "default_locale": "en",
+  "homepage_url": "http://thaont540.github.io/",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://wsm.framgia.vn/*", "http://wsm.sun-asterisk.vn/*"],
+      "run_at": "document_end",
+      "js": ["js/jquery.js", "js/process.js"]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "desc": {
-    "message": "Now you don't need to answer the question."
+    "message": "Không cần phải trả lời câu hỏi để login vào wsm nữa."
   },
   "name": {
-    "message": "WSM: Auto login"
+    "message": "WSM: Thật phê"
   },
   "title": {
-    "message": "WSM: Auto login"
+    "message": "WSM: Thật phê"
   }
 }

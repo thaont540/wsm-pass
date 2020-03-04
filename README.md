@@ -5,3 +5,6 @@
 - Enable `develop mode`
 - Load unpacked
 - Reload wsm if need
+
+## addition:
+- Bring back old Chatwork theme (closest)

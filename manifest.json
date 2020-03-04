@@ -14,9 +14,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://wsm.framgia.vn/*", "https://wsm.sun-asterisk.vn/*"],
+      "matches": ["https://wsm.framgia.vn/*", "https://wsm.sun-asterisk.vn/*", "https://www.chatwork.com/*"],
       "run_at": "document_end",
-      "js": ["js/jquery.js", "js/process.js"]
+      "js": ["js/jquery.js", "js/process.js"],
+      "css" : ["css/chatwork.css"]
     }
   ]
 }

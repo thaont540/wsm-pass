@@ -34,4 +34,9 @@ body.light .messageBadge .chatTimeLineReply__replyIcon {
 }body.light .messageBadge .chatTimeLineReply__icon {
     fill: #ffffff !important;
 }
- 
+body.light .messageBadge__toAllBadge {
+    background-color: #66A300 !important;
+}
+body.light .messageBadge__toAllBadgeIcon {
+    fill: #ffffff !important;
+}

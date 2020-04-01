@@ -19,8 +19,8 @@ body.light ._message.messageHasBorder.gngoBe {
 body.light ._speakerName {
     color: #0084B2 !important;
 }
-body.light .chatTimeLineReply__description {
-    display: none;
+body.light .chatTimeLineReply__label {
+    display: none !important;
 }
 body.light ul li.DSSjv {
     background-color: #0000002b !important;

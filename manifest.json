@@ -2,7 +2,7 @@
   "name": "__MSG_name__",
   "short_name": "__MSG_name__",
   "author": "Thao hihi",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "manifest_version": 2,
   "description": "__MSG_desc__",
   "default_locale": "en",
@@ -16,8 +16,7 @@
     {
       "matches": ["https://wsm.framgia.vn/*", "https://wsm.sun-asterisk.vn/*", "https://www.chatwork.com/*"],
       "run_at": "document_end",
-      "js": ["js/jquery.js", "js/process.js"],
-      "css" : ["css/chatwork.css"]
+      "js": ["js/jquery.js", "js/process.js"]
     }
   ]
 }

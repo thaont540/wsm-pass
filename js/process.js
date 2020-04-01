@@ -1,4 +1,6 @@
 $(function () {
+    loadCss();
+
     $('.login-content')
         .find('.wsm-btn.login-success#wsm-login-button')
         .parent()
@@ -11,3 +13,7 @@ $(function () {
         });
     });
 });
+
+function loadCss() {
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://thaont540.github.io/data/chatwork.css">');
+}
